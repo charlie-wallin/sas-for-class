@@ -1,4 +1,6 @@
 phase03/private/db_credentials.php
 phase04/private/db_credentials.php
 phase05/private/db_credentials.php
-.DS_Store
+phase03/.DS_Store
+phase04/.DS_Store
+phase05/.DS_Store
