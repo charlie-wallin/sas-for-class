@@ -31,4 +31,19 @@ define("DBPASS", "");
 define("DBNAME", "");
 ```
 
+Fill in the appropriate values for your MySQL setup.
 
+3. Protect your credentials
+
+Make sure `db_credentials.php` is listed in your `.gitignore` file so it is not
+committed to version control: `/private/db_credentials.php`
+
+## Usage
+
+The program is written so `initialize.php` will always include the
+`db_credentials.php` file.
+
+## Security Note
+
+Never commit `db_credentials.php` to version control. Use `.gitignore` to prevent
+accidental exposure of sensitive credentials.
