@@ -1,5 +1,15 @@
 <?php
 
+// Include Composer's autoloader to make all installed packages available
+require_once __DIR__ . '/../vendor/autoload.php';
+
+// Create a new Dotenv instance pointing to the parent directory (project root)
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+
+// Load the environment variables from the .env file into $_ENV and $_SERVER
+$dotenv->load();
+
+
 // Assign file paths to PHP constants
 // __FILE__ returns the current path to this file
 // dirname() returns the path to the parent directory
