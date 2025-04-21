@@ -1,5 +1,6 @@
 .env
 connection.txt
+.DS_Store
 phase01/.DS_Store
 phase02/.DS_Store
 phase03/.DS_Store
